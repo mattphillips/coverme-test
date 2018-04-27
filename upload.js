@@ -1,8 +1,8 @@
-import fs from 'fs';
-import fetch from 'node-fetch';
-import FormData from 'form-data';
-import path from 'path';
-import shell from 'shelljs';
+const fs = require('fs');
+const fetch = require('node-fetch');
+const FormData = require('form-data');
+const path = require('path');
+const shell = require('shelljs');
 
 const p = path.resolve(__dirname, 'coverage/lcov-report');
 
