@@ -5,10 +5,13 @@
   "author": "Matt Phillips <matt@mattphillips.io>",
   "license": "MIT",
   "dependencies": {
-    "jest": "^22.4.3"
+    "form-data": "^2.3.2",
+    "jest": "^22.4.3",
+    "node-fetch": "^2.1.2",
+    "shelljs": "^0.8.1"
   },
   "scripts": {
-        "test": "jest --coverage",
-    "report": "node upload.js - coverme-test
+    "test": "jest --coverage",
+    "report": "node upload.js - coverme-test"
   }
 }
