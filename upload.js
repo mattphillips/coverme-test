@@ -31,6 +31,6 @@ fetch('https://coverme-test.now.sh/coverage', {
   body: formData,
 })
   .then(res => res.text())
-  // .then(text => console.log(text));
+  .then(text => console.log(text));
 
 
