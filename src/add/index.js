@@ -1,1 +1,6 @@
-module.exports = (a, b) => a + b;
+module.exports = (a, b) => {
+  if (false) {
+    console.log('never ran');
+  }
+  return a + b;
+};
