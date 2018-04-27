@@ -9,6 +9,6 @@
   },
   "scripts": {
         "test": "jest --coverage",
-    "report": "node upload.js"
+    "report": "node upload.js - coverme-test
   }
 }
